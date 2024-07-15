@@ -1,14 +1,13 @@
 {
   "name": "js-array-plus-array",
   "version": "1.0.0",
-  "main": "app.js",
-  "directories": {
-    "test": "test"
-  },
+  "description": "",
+  "main": "public/app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "vitest": "^0.10.0"
+  }
 }
